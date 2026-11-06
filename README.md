@@ -29,4 +29,7 @@ Tietokannassa olevaan dataan päästään käsiksi HTTP-rajapinnan ja TCP-soketi
 
 ## Tilanne
 
-Projekti on alkuvaiheessa. Tätä sivua päivitetään sitä mukaa kun työ etenee.
+- Viikko 1: arkkitehtuurikuva, README ja Kanban-taulu tehty. Kiihtyvyysanturin lukeminen AD-muuntimella testattu omalla laudalla (`testailu/kiihtyvyysanturi`).
+- Viikko 2: kiihtyvyysanturin data (suunta, x, y, z) lähetetään BLE:n yli puhelimeen tai tietokoneeseen. Testattu omalla laudalla (`testailu/ble_kiihtyvyysanturi`).
+
+Tätä sivua päivitetään sitä mukaa kun työ etenee.
