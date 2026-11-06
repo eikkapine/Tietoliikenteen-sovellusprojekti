@@ -16,4 +16,10 @@ Anturin kytkentä:
 
 Käännetään VS Coden nRF Connect -laajennuksella, board `nrf5340dk/nrf5340/cpuapp/ns`.
 
-Tila: ei vielä testattu omalla laudalla.
+Tila: testattu omalla laudalla. Pinnit P0.04, P0.05 ja P0.06 testattu kytkemällä ne VDD:hen (n. 2980 mV) ja GND:hen (0 mV). Anturilla vaakatasossa Z on suurin.
+
+## ble_kiihtyvyysanturi
+
+Kiihtyvyysanturin data BLE:n yli (viikko 2). Nappi 2 vaihtaa suuntaa, nappi 3 tekee 100 mittausta. Tarkemmin kansion README:ssä.
+
+Tila: testattu omalla laudalla. Data tulee nRF Connect -sovellukseen ja tietokoneelle, napit 2 ja 3 toimivat.
